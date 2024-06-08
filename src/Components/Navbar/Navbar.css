@@ -54,6 +54,12 @@
 
   }
 
+  .nav-login-cart{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+  }
+
   .nav-login-cart button{
     width: 100px;
     height: 50px;
