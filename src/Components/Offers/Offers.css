@@ -28,16 +28,21 @@
 }
 
 .offers-left button{
-    width: 282px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 310px;
     height: 70px;
-    border-radius: 35px;
+    border-radius: 75px;
+    margin-top: 30px;
     background: #ff4141;
-    border: none;
-    color: white;
+    color: azure;
     font-size: 22px;
     font-weight: 500;
-    margin-top: 30px;
-    cursor: pointer;
+    border: none;
+    padding: 10px 10px 10px 10px;
+    
 }
 
 .offers-right{
