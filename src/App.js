@@ -10,6 +10,8 @@ import women_banner from './Components/Assets/banner_women.png'
 import kid_banner from  './Components/Assets/banner_kids.png'
 import ShopCategory from './Pages/ShopCategory';
 import LoginSignup from './Pages/LoginSignup';
+import Cart from './Pages/Cart';
+// import CartItems from './Components/CartItems/CartItems';
 
 
 function App() {
@@ -28,7 +30,7 @@ function App() {
           <Route path=':productId' element={<Product/>}/>
 
         </Route>
-        <Route path='/cart' element={<cart/>}/>
+        <Route path='/Cart' element={<Cart/>}/>
         <Route path='/Login' element={<LoginSignup/>}/>
       </Routes>
       <Footer/>
